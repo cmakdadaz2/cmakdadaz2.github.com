@@ -1,0 +1,88 @@
+<!doctype document>
+<html>
+<head>
+<link rel="stylesheet" href="dada.css">
+<link rel="stylesheet" href="ui.css">
+<title>firsttry</title>
+<script src="jq.js"></script>
+<script src="ui.js"></script>
+<body>
+<img src="fon.jpg" width="1920px" height="100px"></img>
+<div class="a">
+<div class="b"><div class="z">lol</div>
+<div class="b1">lol</div>
+<div class="b1">lol</div>
+<div class="b1">lol</div>
+</div>
+<div class="b"><div class="z">lol</div>
+<div class="b1">lol</div>
+<div class="b1">lol</div>
+<div class="b1">lol</div>
+</div>
+<div class="b"><div class="z">lol</div>
+<div class="b1">lol</div>
+<div class="b1">lol</div>
+<div class="b1">lol</div>
+</div>
+</div>
+<div class="aso">
+<div class="os">
+<div class="nav">navigation</div>
+<div class="f">
+<div class="f1">главная</div>
+<div class="f1">неглавная</div>
+<div class="f1">да</div>
+<div class="f1">нет</div></div>
+<div class="nav"> </div>
+</div>
+<div class="div">— Преступников было несколько? — спросил Холмс.
+</div>
+</div>
+<div id='ko'>looooo</div>
+vvodi<input id="ne1">
+<button id="ne">da</button>
+<p id="l"></p>
+<form method="POST" action="https://formspree.io/cmak20005@gmail.com">
+  <input type="email" name="email" placeholder="Your email">
+  <textarea name="message" placeholder="Test Message"></textarea>
+  <input type="text" name="_gotcha" style="display:none">
+  <button type="submit">Send Test</button>
+</form>
+<script>
+$('div.b').mouseover(function(){
+$(this).children('.b1').show()})
+$('div.b').mouseout(function(){
+$(this).children('.b1').hide()})
+</script>
+<script>
+$('div.f1').mouseover(function(){
+$(this).css({'background':'black',
+'textDecoration':'underline',
+'color':'blue'})})
+$('div.f1').mouseout(function(){
+$(this).css({'background':'#E6E6FA',
+'textDecoration':'none',
+'color':'black'})})
+</script>
+<script>
+	var t
+	var d
+$('#ko').click(function(){
+	d=10000
+t=new Date();
+$(this).animate({
+backgroundColor:'red'
+},
+d, function(){d=10000})
+})
+$('#ko').dblclick(function(){
+	var y=new Date()
+	t=y.getTime()-t.getTime()
+$(this).stop(true).html(d)
+})
+</script>
+<script>
+$('<div>dadadnet</div>').css('background','red').appendTo(document.body)
+</script>
+</body>
+</html>
